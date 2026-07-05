@@ -1,5 +1,46 @@
 # Changelog
 
+## [2.0.0](https://github.com/D3SOX/spicetify-playlist-labels/compare/v1.5.0...v2.0.0) (2026-07-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** The Spicetify.Panel namespace and its related components and hooks have been removed.
+
+### Features
+
+* add prettier formatting script to package.json ([48a7dfe](https://github.com/D3SOX/spicetify-playlist-labels/commit/48a7dfea96dcd816025e29adfffa11191f6dd109))
+* **layout:** implement overflow-aware label clipping logic ([c3cc5ff](https://github.com/D3SOX/spicetify-playlist-labels/commit/c3cc5ff1b8a66f24841955e859ace651815b0033))
+* move playlist visibility toggle from playbar to label menus ([eb518f1](https://github.com/D3SOX/spicetify-playlist-labels/commit/eb518f167136ae093b88272323dfefbb688d46b0))
+* save toggle option and refactor button ([a9a340b](https://github.com/D3SOX/spicetify-playlist-labels/commit/a9a340b94d41459f858a436d90762e421ee8bb80))
+* save toggle option and refactor button ([9871fdf](https://github.com/D3SOX/spicetify-playlist-labels/commit/9871fdffd12f2bb3e408e367aa0ed823a2609648))
+* support removing tracks from liked songs ([0175cfe](https://github.com/D3SOX/spicetify-playlist-labels/commit/0175cfe26171de02a09200272854002d1e083532))
+* **ui:** add media thumbnails to playlist label overflow menu ([e91b9c8](https://github.com/D3SOX/spicetify-playlist-labels/commit/e91b9c86489b3d19a9e0dd215d0ccfb092f22983))
+* **ui:** add remove button to playlist overflow menu ([ff085ae](https://github.com/D3SOX/spicetify-playlist-labels/commit/ff085aed9847fa309a8e8992274ac41dfd05d241))
+* **ui:** implement custom context menu for playlist labels ([fba7dfa](https://github.com/D3SOX/spicetify-playlist-labels/commit/fba7dfa26b3cef0d5392d13f0fac685db21c9750))
+* **ui:** replace ellipsis overflow with interactive button ([9ed2f6a](https://github.com/D3SOX/spicetify-playlist-labels/commit/9ed2f6aa450581d1dedf69e73511bdf02fff1b2e)), closes [#11](https://github.com/D3SOX/spicetify-playlist-labels/issues/11)
+* **utilties:** add functions to retrieve React Fiber nodes and parent props ([a201c59](https://github.com/D3SOX/spicetify-playlist-labels/commit/a201c590f5ce7c2abd9cef307e66e2456471149e))
+
+
+### Bug Fixes
+
+* **ci:** correct build script name in release PR workflow ([7c942a2](https://github.com/D3SOX/spicetify-playlist-labels/commit/7c942a26a48462c101911011307cdecb82b7bf02))
+* **Compatible with Spicetify Stats App:** Avoid cluttering the Top Tracks page style in the Spicetify Stats App ([ca2daa4](https://github.com/D3SOX/spicetify-playlist-labels/commit/ca2daa4bf5838b971d260912232e7c054d9c09a9))
+* **css:** restore original right-aligned playlist labels flow ([d629f13](https://github.com/D3SOX/spicetify-playlist-labels/commit/d629f135e39f191e1f8438b02ffba3b851d5c66a))
+* distorted playlist images ([6c458ff](https://github.com/D3SOX/spicetify-playlist-labels/commit/6c458ffdb5cd6e3d7c4e96db20a6c2439c4c168b))
+* distorted playlist images ([54476ef](https://github.com/D3SOX/spicetify-playlist-labels/commit/54476ef1030bcadaebc45876f5d2e30b033d2b37))
+* labels not loading on startup ([c2b589f](https://github.com/D3SOX/spicetify-playlist-labels/commit/c2b589f69b377c3c0923eec9b70f16a8c7c43517))
+* labels not loading on startup ([8ea21aa](https://github.com/D3SOX/spicetify-playlist-labels/commit/8ea21aaf172866d0517d7ccd49e441cc12c57dba))
+* **playlist:** fetch metadata if image is missing ([#4](https://github.com/D3SOX/spicetify-playlist-labels/issues/4)) ([24b1637](https://github.com/D3SOX/spicetify-playlist-labels/commit/24b16376a1cf258842e56c106206a1f022d42a79))
+* **playlist:** handle errors when fetching playlist items ([#8](https://github.com/D3SOX/spicetify-playlist-labels/issues/8)) ([b4b0561](https://github.com/D3SOX/spicetify-playlist-labels/commit/b4b056167f1d7c321cbd5fbdc53135d7612c1d3c))
+* **playlist:** temporarily disable context menu to address crash issue ([3f4a612](https://github.com/D3SOX/spicetify-playlist-labels/commit/3f4a6120e23f45970d8719b5da1b967fdb7cb043))
+* **tracklist:** fix track URI retrieval logic ([f00c799](https://github.com/D3SOX/spicetify-playlist-labels/commit/f00c799442f1d63eef8b9fea8368cbfa2f0452d5))
+
+
+### Build System
+
+* **deps:** update Spicetify type definitions ([2ca13be](https://github.com/D3SOX/spicetify-playlist-labels/commit/2ca13befc68be5e6b768ec19d9b25b130bf78bc8))
+
 ## [1.5.0](https://github.com/qixing-jk/spicetify-playlist-labels/compare/v1.4.0...v1.5.0) (2026-04-07)
 
 
